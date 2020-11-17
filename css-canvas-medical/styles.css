@@ -138,16 +138,17 @@
   background-color: #fafafa;
   margin-right: 5%;
   margin-left: 5%;
-  margin-top: 4%;
+  margin-top: 3%;
 }
 
 .grey-row-one > h4 {
   text-align: center;
-  padding-top: 12px;
+  padding-top: 50px;
   font-family: 'Tiempos Headline';
   font-style: normal;
   font-size: 28px;
   color: grey;
+  margin-bottom: 15px;
 
 }
 
@@ -186,9 +187,9 @@
 
 }
 
-.middle-row {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+ .middle-row {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* learn more */
@@ -259,7 +260,7 @@
     font-family: 'Tiempos Headline';
     font-weight: 50;
     letter-spacing: 1px;
-    font-size: 28px;
+    font-size: 38px;
     margin-top: 40%;
 }
 
