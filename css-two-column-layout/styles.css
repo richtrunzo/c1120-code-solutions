@@ -1,0 +1,165 @@
+.row-one {
+  text-align: center;
+}
+
+.row-one > h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+  letter-spacing: 3.5px;
+}
+
+.row-one > p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.row-two {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+
+}
+
+.column-one {
+   margin-right: 220px;
+}
+
+
+
+.column-one-intuitive {
+  display: flex;
+
+}
+
+.column-one-intuitive img {
+  left: 26%;
+  top: 17%;
+}
+
+
+.column-one-intuitive h3 {
+  margin-top: 75px;
+  margin-bottom: 0;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.column-one-intuitive p {
+ font-family: 'Karla';
+ font-style: normal;
+ font-weight: 400;
+ line-height: 25px;
+ font-size: 13px;
+
+}
+
+.circumstance {
+  display: flex;
+  padding-top: 70px;
+}
+
+.circumstance h3 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+
+.circumstance p {
+  font-family: 'Karla';
+ font-style: normal;
+ font-weight: 400;
+ line-height: 25px;
+ font-size: 13px;
+
+
+}
+
+.circumstance img {
+  left: 26%;
+  top: 46%;
+
+}
+
+.practice-medicine {
+  display: flex;
+}
+
+.practice-medicine h3 {
+  margin-top: 75px;
+  margin-bottom: 0;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.practice-medicine p {
+ font-family: 'Karla';
+ font-style: normal;
+ font-weight: 400;
+ line-height: 25px;
+ font-size: 13px;
+
+}
+
+.practice-medicine img {
+  left: 50%;
+  top: 17%;
+
+}
+
+.data {
+  display: flex;
+  padding-top: 70px;
+}
+
+.data h3 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+
+.data p {
+font-family: 'Karla';
+ font-style: normal;
+ font-weight: 400;
+ line-height: 25px;
+ font-size: 13px;
+}
+
+.data img {
+  left: 50%;
+  top: 46%;
+}
+
+
+img {
+  position: absolute;
+}
+
+.row-three {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more-button {
+  background-color: white;
+  border: solid 2px;
+  border-color: #db8f8a;
+  color: #db8f8a;
+  margin-top: 50px;
+  padding: 10px 40px 10px 40px;
+}
