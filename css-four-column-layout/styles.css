@@ -1,0 +1,68 @@
+.container {
+  background-color: #f7f8fa;
+}
+
+.row-one {
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  width: 100%;
+
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.row-two {
+  display: flex;
+  justify-content: center;
+  font-family: 'Barlow', sans-serif;
+  width: 100%;
+
+
+}
+
+.col-one {
+  width: 20%;
+
+}
+
+.col-two {
+  width: 20%;
+
+}
+
+.col-three {
+  width: 20%;
+
+}
+
+.col-four {
+  width: 20%;
+
+}
+
+
+.screen{
+  width: 100%;
+}
+
+.icon {
+  width: 20%;
+  margin-left: 150px;
+}
+
+p {
+  text-align: center;
+
+}
+
+.feature {
+  font-weight: bolder;
+}
+
+.description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
