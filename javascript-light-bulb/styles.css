@@ -1,0 +1,32 @@
+.yellow-body {
+  background-color: #fef9f1;
+}
+
+.black-body {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+
+.column {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.yellow {
+  background-color: #faea84;
+  box-shadow: 0 0 30px #fdefae;
+
+}
+
+.black {
+  background-color: #222224;
+  box-shadow: 0 0 30px #242323;
+}
