@@ -1,0 +1,41 @@
+.hidden {
+  display: none;
+}
+
+.img-container {
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.circle {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-circle {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.circle-btn {
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+.arrow-button {
+  border: none;
+  background-color: white;
+}
+
+.fa-chevron-left {
+  font-size: 100px;
+}
+.fa-chevron-right {
+  font-size: 100px;
+}
