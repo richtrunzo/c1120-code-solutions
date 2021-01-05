@@ -11,16 +11,3 @@ function findIndex(array, value) {
     }
     }
     }
-
-
-// for (i = 0; i < array.length; i++) {
-
-// }
-
-// else if (array[array.length - 1] != value) {
-//   return -1;
-// }
-
-//   else if (array[i] != value) {
-//     i++;
-//   }

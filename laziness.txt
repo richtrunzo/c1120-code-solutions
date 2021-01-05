@@ -1,0 +1,7 @@
+
+
+ ...
+cd
+cat laziness.txt
+cd 
+man cat
