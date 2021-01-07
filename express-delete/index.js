@@ -32,11 +32,11 @@ app.get('/api/grades', (req, res) => {
 });
 
 app.delete('/api/grades/:id', (req, res) => {
-  if (req.params.id === "1") {
+  if (req.params.id === "12") {
     delete grades[12];
-  } else if (req.params.id === "2") {
+  } else if (req.params.id === "47") {
     delete grades[47];
-  } else if (req.params.id === "3") {
+  } else if (req.params.id === "273") {
     delete grades[273];
   }
   res.sendStatus(204);
