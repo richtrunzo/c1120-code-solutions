@@ -41,7 +41,7 @@ app.post('/api/notes', (req, res, next) => {
     req.body.id = nextId;
     data['notes'][nextId] = req.body;
     data['nextId'] = req.body.id + 1;
-    fs.writeFile('derp/data.json', JSON.stringify(data, null, 2), (err) => {
+    fs.writeFile('./data.json', JSON.stringify(data, null, 2), (err) => {
       if (err) {
         res.status(500).json({ 'error': 'an unexpected error occured' });
       };
@@ -58,7 +58,7 @@ app.delete('/api/notes/:id', (req, res, next) => {
     res.status(404).json({'error': 'cannot find note with id ' + req.params.id});
   } else if (data['notes'][req.params.id] !== undefined) {
     delete data['notes'][req.params.id];
-    fs.writeFile('derp/data.json', JSON.stringify(data, null, 2), (err) => {
+    fs.writeFile('./data.json', JSON.stringify(data, null, 2), (err) => {
       if (err) {
         res.status(500).json({ 'error': 'an unexpected error occured' });
       };
@@ -76,7 +76,7 @@ app.put('/api/notes/:id', (req, res, next) => {
     data['notes'][req.params.id]['content'] = req.body.content;
     fs.writeFile('./data.json', JSON.stringify(data, null, 2), (err) => {
       if (err) {
-        res.status(500).json({ 'error': 'an unexpected error occured' });
+        res.status(500).json({'error': 'an unexpected error occured' });
       };
     res.status(200).json(data['notes'][req.params.id]);
   });
