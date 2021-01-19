@@ -1,0 +1,33 @@
+.three {
+  background-color: #361c75;
+  color: #ffffff;
+}
+
+.six {
+  background-color: #674ea7;
+  color: #ffffff;
+}
+
+.nine {
+  background-color: #e06666;
+  color: #ffffff;
+}
+
+.twelve {
+  background-color: #f6b26b;
+  color: #ffffff;
+}
+
+.fifteen {
+  background-color: #ffff00;
+  color: #000000;
+}
+
+.eighteen {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn {
+ padding: 25px;
+}
