@@ -1,0 +1,25 @@
+.circle {
+  width: 50px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-vert {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.fas {
+  width: 100px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 5px;
+}
