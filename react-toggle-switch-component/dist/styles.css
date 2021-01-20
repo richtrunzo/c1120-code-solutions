@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flexon {
+  display: flex;
+  justify-content: flex-end;
+  background-color: green;
+}
+
+.flexoff {
+  display: flex;
+  justify-content: flex-start;
+  background-color: grey;
+}
+
+.oval {
+  width: 100px;
+  border-radius: 35%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.circle {
+  width: 50px;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.text {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
