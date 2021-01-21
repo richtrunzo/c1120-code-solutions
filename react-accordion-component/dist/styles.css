@@ -1,0 +1,19 @@
+.lang {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-bottom-width: 5px;
+  text-align: center;
+  width: 50%;
+  background-color: lightgray;
+}
+
+.text {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-bottom-width: 5px;
+  text-align: center;
+  width: 50%;
+
+}
