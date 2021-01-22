@@ -5,8 +5,7 @@ const path = require('path');
 const app = express();
 
 const join = path.join(__dirname, 'public');
-console.log(join);
-console.log(__dirname);
+
 
 const static = express.static(join);
 
