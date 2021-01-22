@@ -42,20 +42,3 @@ class Accordion extends React.Component {
 
 
 export default Accordion;
-
-
-// htmlRender() {
-//   return <div>
-//     <div class="lang" onClick={this.click}>
-//       <p>HyperText Markup Language</p>
-//     </div>
-//     <div class="text">
-//       <p>{this.props.text[0].html}</p>
-//     </div>
-//     <div class="lang" onClick={this.click}>
-//       <p>Cascading Style Sheets</p>
-//     </div>
-//     <div class="lang" onClick={this.jsOn}>
-//       <p>JavaScript</p>
-//     </div>
-//   </div>
