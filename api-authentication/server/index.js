@@ -55,12 +55,12 @@ app.post('/api/auth/sign-in', (req, res, next) => {
    const params = [username];
    db.query(sql, params)
     .then(result => {
-      if (result.rows === []) {
+      if (!result.rows.length) {
         throw new ClientError(401, 'invalid login');
       } else {
         argon2.verify(result.rows[0].hashedPassword, password)
-         .then(hashed => {
-           if (hashed === false) {
+         .then(isMatched => {
+           if (isMatched === false) {
              throw new ClientError(401, 'invalid login');
            } else {
              const payload = {
