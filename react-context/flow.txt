@@ -1,0 +1,42 @@
+User can sign up:
+
+When a user signs up the value of username and password are stored in
+state within auth-form.jsx
+
+A fetch request with the POST method and the user data is then sent to the server
+
+The server makes sure there is both a username and password, and if there is it will
+create a hashedPassword with Argon2 and save both the username and hashedpassword
+in the database
+
+After the data is stored in the database the server responds with an array of the new user data.
+
+
+User can sign in:
+
+When a user signs in a unique token for their password is set in local storage,
+and the state is set to the current user
+
+Upon submission of sign in the handlesubmit event is triggered on auth-form.jsx
+which then sends a fetch request with a POST method to api/users/sign-in.
+
+Once the fetch request is sent the database is queried for the user id and hashedpassword
+by searching for the username that was submitted in the form. The userid and password are then retireived
+and the Password and hashed password are checked to see if they match. If they do the server responds with a unique token and
+the playload object.
+
+The handlesignin event is then triggered and the token is set in local storage,
+and the state is set to the current user
+
+User can stay signed in:
+
+This has to do with the componentdidmount method, it checks if the hash of
+current rendered page changed, and then also gets the token from local storage and decodes it.
+The decodetoken() method returns the payload which is then set in state to this.state.user.
+
+User can sign out:
+
+When the sign out button is clicked the handlesignout method is called and the token is removed from local
+storage and user is set to null instead of username.
+
+The { path } is then set to an empty string which returns <Home /> which renders the "sign-in" hash.
